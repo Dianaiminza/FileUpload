@@ -11,6 +11,11 @@ Then run: npm npm init npm install Create .env with your own enviroment variable
 To run tests: npm npm run test
 
 # API Routes
-HTTPVERB | ENDPOINT | FUNCTIONALITY |
-POST------ |------- [ file ] /api/upload |----- Upload a single file |
-POST------- | -------[ file ] /api/multiple |------ Upload multiple files |
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+HTTPVERB | ENDPOINT              | FUNCTIONALITY        |
+--------  ----------------------  ---------------------
+POST     | [ file ] /api/upload  | Upload a single file |
+POST     | [ file ] /api/multiple|Upload multiple files |
